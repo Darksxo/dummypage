@@ -1,0 +1,104 @@
+body {
+	background-color: #444444;
+}
+
+#home{
+	margin-top: 15px;
+}
+.jumbotron {
+	text-align: center;
+	background-color: #222;
+	height: 780px;
+}
+
+.jumbotron > h1, .jumbotron > p, .jumbotron > a > span {
+	color: #3c9894cc;
+	position: relative;	
+	top: 165px
+}
+.jumbotron > a > span {
+	font-size:  100px;
+	position: relative;
+	top: 300px;
+}
+
+#elkom{
+	margin-bottom: -35px;
+}
+
+#logo {
+	max-width: 50px;
+    margin-top: -10px;
+    visibility: hidden;
+}
+
+
+.navbar-fixed-top {
+ 	border-color: #222;
+}
+.navbar-collapse {
+	margin-top: 5px;
+	visibility: hidden;
+}
+
+.alert-danger{
+	position: relative;
+	top: -19px; 
+	text-align: center;
+}
+	
+#time  {
+	position: absolute;
+	top: -5px;
+	left: 177px;
+	color: #222;
+	font-family: "Courier New", Courier, monospace;
+}
+
+#drop > ul  > li > a > span{
+	float: right;	
+}
+
+#osu{
+	padding: 0px; 
+}
+
+#drop > ul  > li > a:hover, #drop > ul  > li > a:active{
+	background-color: #fff;
+	color: red;	
+}
+
+.navbar{ 
+	height: 60px;
+ }
+
+ #pencarian{
+		max-width: 90%; 
+		float:left; 
+		margin-right: 5px;
+}
+
+@media only screen and (max-width: 768px){
+	.navbar-form .form-control{
+		width: 100%;
+	}
+	
+	.col-xs-4{
+		width: 100%;
+	}
+	
+	.navbar-collapse {
+		background-color: black;
+	}
+	#drop > ul  > li > a:hover{
+	background-color: #000000;
+	color: #fff;	
+	}
+
+}
+@media only screen and (max-width: 1000px){
+	#ytb{
+		width: 100%;
+		text-align:  center;
+	
+}

@@ -1,0 +1,109 @@
+@media only screen and (max-width: 480px){
+	#time  {
+		left: 70px;
+	}
+
+	.navbar-form .form-control{
+		width: 212px;
+	}
+			
+}
+
+@media only screen and (max-width: 380px){
+	#time  {
+		font-size:15px;
+	}
+}
+
+@media (min-width: 408px) and (max-width: 560px){
+	.navbar-form .form-control{
+		width: 280px;
+	}
+			
+}
+#alert{
+	padding: 10px;
+}
+#ytb{
+	background-color: white;
+	float: right;
+}
+
+#funny{
+	background-color: #2E2E2E;
+	padding-bottom  : 20px;
+}
+
+.navbar-toggle{
+	visibility: hidden;
+}
+
+#funny > h1 {
+	color: #247824b3;
+	text-align: right;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	background-color: #e0c94b;
+	padding: 10px;
+	border-color: ;
+}
+
+#funny > div{
+	margin-top: 15px;
+	padding: 0px;
+	background-color: #fff;
+}
+
+#kys {
+	margin: 10px;
+	height: 600px;
+	max-height: 600px;
+}
+
+#kys > div > h2{
+	text-align: center;
+}
+
+#info{
+	color: white;
+	text-align: center;
+}
+
+#dau{
+	color: white;
+	text-align: center;
+	margin-top:-10px;
+}
+
+video {
+	width: 100%; 
+	max-width: 1000px;
+}
+
+#pass > div {
+	padding: 10px;
+}
+
+.jumptarget:before { 
+display: block; 
+content: " "; 
+margin-top: -60px; 
+height: 60px; 
+visibility: hidden; 
+}
+
+.carousel-caption > audio {
+	visibility: collapse;
+}
+
+.carousel-caption{
+	background-color: #32323266;
+	border-radius: 50px;
+}
+
+.carousel-caption:hover > audio {
+	visibility: visible;
+}
+
+#fix > img{
+	width: 100%;
+}

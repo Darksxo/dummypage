@@ -1,0 +1,39 @@
+#animasi{
+	margin-top: -25px;
+	height:90px;
+}
+
+#animasi > div {
+	 max-height:90px;
+	 height:90px;
+	 padding-left:0px;
+	 padding-right:0px;
+}
+
+#animasi > div > div{
+	 -webkit-animation-name:naik;
+	 animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes naik {
+	0%	{height: 10%;}
+	50% {height:100%;}
+	100%{height: 0%;}
+}
+
+#kaki {
+	background-color: bisque;
+	border: black;
+	border-top-width: 2px;
+	padding: 5px;
+	border-top-style: solid;
+	height: 100%;
+}
+.kanan{
+	float:right;
+}
+
+#bio > div > h3{
+	text-align:center;
+	font-family:"Comic Sans MS", cursive, sans-serif;
+}
