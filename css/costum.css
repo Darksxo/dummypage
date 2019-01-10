@@ -86,6 +86,9 @@ body {
 	.col-xs-4{
 		width: 100%;
 	}
+	.col-xs-{
+		width: 100%;
+	}
 	
 	.navbar-collapse {
 		background-color: black;
